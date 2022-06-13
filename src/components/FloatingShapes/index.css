@@ -1,0 +1,156 @@
+.object {
+    opacity: 0;
+    position: absolute;
+    animation: bounceIn 1s .5s forwards;
+}
+
+.polygon {
+    right: 350px;
+    bottom: 20%;
+    width: 170px;
+}
+
+.polygon-animate {
+    opacity: 1;
+    right: 350px;
+    bottom: 20%;
+    width: 170px;
+    animation: bounce 2.5s .6s;
+    animation-iteration-count: infinite;
+}
+
+.boxes-overlay {
+    bottom: 40%;
+    right: 10%;
+    width: 70px;
+}
+
+.boxes-overlay-animate {
+    opacity: 1;
+    bottom: 40%;
+    right: 10%;
+    width: 70px;
+    animation: bounce 3s;
+    animation-iteration-count: infinite;
+}
+
+.boxed-dots {
+    left: 10%;
+    bottom: 25%;
+    width: 50px;
+}
+
+.boxed-dots-animate {
+    opacity: 1;
+    left: 10%;
+    bottom: 25%;
+    width: 50px;
+    animation: bounce 3s 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 835px) {
+    .polygon {
+        right: 20%;
+        bottom: 20%;
+        width: 1225x;
+    }
+
+    .polygon-animate {
+        opacity: 1;
+        right: 20%;
+        bottom: 25%;
+        width: 120px;
+        animation: bounce 2.5s .6s;
+        animation-iteration-count: infinite;
+    }
+
+    .boxes-overlay {
+        bottom: 70%;
+        right: 5%;
+        width: 50px;
+    }
+
+    .boxes-overlay-animate {
+        opacity: 1;
+        bottom: 70%;
+        right: 5%;
+        width: 50px;
+        animation: bounce 3s;
+        animation-iteration-count: infinite;
+    }
+
+    .boxed-dots {
+        left: 10%;
+        bottom: -10%;
+        width: 40px;
+    }
+
+    .boxed-dots-animate {
+        opacity: 1;
+        left: 10%;
+        bottom: -10%;
+        width: 40px;
+        animation: bounce 3s 1s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media (max-width: 660px) {
+    .polygon {
+        right: 25%;
+        bottom: 30%;
+        width: 110px;
+    }
+
+    .polygon-animate {
+        opacity: 1;
+        right: 25%;
+        bottom: 30%;
+        width: 110px;
+        animation: bounce 2.5s .6s;
+        animation-iteration-count: infinite;
+    }
+
+    .boxes-overlay {
+        bottom: 70%;
+        right: 40px;
+        width: 50px;
+    }
+
+    .boxes-overlay-animate {
+        opacity: 1;
+        bottom: 70%;
+        right: 40px;
+        width: 50px;
+        animation: bounce 3s;
+        animation-iteration-count: infinite;
+    }
+
+    .boxed-dots {
+        left: 40px;
+        width: 40px;
+    }
+
+    .boxed-dots-animate {
+        opacity: 1;
+        left: 40px;
+        width: 40px;
+        animation: bounce 3s 1s;
+        animation-iteration-count: infinite;
+    }
+}

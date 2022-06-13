@@ -1,0 +1,92 @@
+.text-animate {
+    font-weight: 900;
+    font-size: 2em;
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+.text-animate._15 {
+    animation-delay: 1s;
+}
+
+.text-animate._16 {
+    animation-delay: 1.1s;
+}
+
+.text-animate._17 {
+    animation-delay: 1.2s;
+}
+
+.text-animate._18 {
+    animation-delay: 1.3s;
+}
+
+.text-animate._19 {
+    animation-delay: 1.4s;
+}
+
+.text-animate._20 {
+    animation-delay: 1.5s;
+}
+
+.text-animate._21 {
+    animation-delay: 1.6s;
+}
+
+.text-animate._22 {
+    animation-delay: 1.7s;
+}
+
+.text-animate._23 {
+    animation-delay: 1.8s;
+}
+
+.text-animate._24 {
+    animation-delay: 1.9s;
+}
+
+.text-animate._25 {
+    animation-delay: 2s;
+}
+
+.text-animate._26 {
+    animation-delay: 2.1s;
+}
+
+.text-animate._27 {
+    animation-delay: 2.2s;
+}
+
+
+.text-animate-hover {
+    font-weight: 900;
+    font-size: 2em;
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+}
+
+.text-animate-hover:hover {
+    color: #2FA4FF;
+    animation: rubberBand 1s;
+}
+
+
+@media (max-width: 835px) {
+    .text-animate {
+        font-size: 1.5em;
+    }
+
+
+    .text-animate-hover {
+        font-weight: 900;
+        font-size: 1.5em;
+        min-width: 10px;
+        display: inline-block;
+        animation-fill-mode: both;
+    }
+
+}

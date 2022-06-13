@@ -1,0 +1,36 @@
+.memoji {
+    opacity: 0;
+    width: 220px;
+    margin-bottom: -20px;
+    animation: fadeIn 2s 2s;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 2.5em;
+}
+
+.description {
+    opacity: 0;
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.4;
+    letter-spacing: .6px;
+    width: 45%;
+    /* word-break: break-all; */
+    animation: fadeIn 2s 2s;
+    animation-fill-mode: forwards;
+    font-family: 'Inter';
+}
+
+@media (max-width: 835px) {
+    .description {
+        width: 55%;
+        font-size: .75rem;
+    }
+
+    .memoji {
+        width: 190px;
+    }
+}
