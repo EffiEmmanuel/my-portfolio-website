@@ -33,4 +33,8 @@ h1 {
     .memoji {
         width: 190px;
     }
+
+    h1 {
+        font-size: 2em;
+    }
 }

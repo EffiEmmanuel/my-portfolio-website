@@ -92,7 +92,9 @@ function Skills() {
           label='Git & GitHub'
           value={70}
         />
+
       </div>
+
     </div>
     // </div >
   )

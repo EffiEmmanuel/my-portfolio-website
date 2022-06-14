@@ -7,3 +7,14 @@
         width: 90% !important;
     }
 }
+
+.socials {
+    opacity: 0;
+    animation: fadeIn 2s 3s;
+    animation-fill-mode: forwards;
+}
+
+img.social {
+    width: 38px;
+    margin: 15px;
+}

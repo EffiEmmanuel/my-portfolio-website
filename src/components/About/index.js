@@ -2,6 +2,9 @@ import './index.css'
 import React from 'react'
 import MemojiHero from '../MemojiHero'
 import memoji from '../../assets/images/memoji-about.png'
+import github from '../../assets/images/Github-20.png'
+import linkedin from '../../assets/images/Linkedin-option-01.png'
+import twitter from '../../assets/images/Twitter-19.png'
 
 const About = () => {
     const aboutArray = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']
@@ -19,6 +22,20 @@ const About = () => {
                 Apart from being a developer, I enjoy playing the piano and hanging out with my best friend, Olasubomi.
                 "
             />
+
+            <div className='socials container d-flex justify-content-center align-items-center'>
+                <a href='https://github.com/EffiEmmanuel'>
+                    <img src={github} alt='Github' className='social git'/>
+                </a>
+                <a href='https://www.linkedin.com/in/emmanuel-effi/'>
+                    <img src={linkedin} alt='Linked in' className='social linkedin' />
+                </a>
+                <a href='https://twitter.com/effi_dev'>
+                    <img src={twitter} alt='Twitter' className='social twitter'/>
+                </a>
+            </div>
+
+
         </div>
     )
 }
