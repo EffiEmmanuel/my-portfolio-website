@@ -1,0 +1,22 @@
+.contact {
+    margin-top: 50px;
+}
+
+.social {
+    width: 80%;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.social a:hover {
+    color: #2FA4FF;
+}
+
+.contact-form {
+    opacity: 0;
+    animation: fadeIn 2s 2s;
+    animation-fill-mode: forwards;
+}

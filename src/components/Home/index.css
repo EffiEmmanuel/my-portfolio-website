@@ -1,9 +1,13 @@
 .cta {
     padding: 15px;
     display: flex;
+    opacity: 0;
     justify-content: space-evenly;
     /* background-color: green; */
     width: 30%;
+    transition: all .5s ease-in-out;
+    animation: fadeIn 1s 2.5s;
+    animation-fill-mode: forwards;
 }
 
 .cta-links {
@@ -36,6 +40,10 @@
 .cta-links.hire:hover {
     background-color: transparent;
     color: black;
+}
+
+.home.social {
+    margin-top: 30px;
 }
 
 

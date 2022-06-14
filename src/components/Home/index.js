@@ -7,7 +7,7 @@ import FloatingShapes from '../FloatingShapes'
 // import FloatingShapes from 
 
 
-const Home = () => {    
+const Home = () => {
     const nameArray = ['E', 'f', 'f', 'i', ' ', ' ', 'E', 'm', 'm', 'a', 'n', 'u', 'e', 'l']
 
     return (
@@ -24,11 +24,17 @@ const Home = () => {
                     <Link to='/about' className='cta-links learn'>Learn more</Link>
                     <Link to='/contact' className='cta-links hire'>Hire me</Link>
                 </div>
+{/* 
+                <div className='home social d-flex justify-content-between my-4'>
+                    <a href='https://www.linkedin.com/in/emmanuel-effi/'>LinkedIn</a>
+                    <a href='https://github.com/EffiEmmanuel'>Github</a>
+                    <a href='https://twitter.com/effi_dev'>Twitter</a>
+                </div> */}
 
             </div>
 
             <FloatingShapes />
-            
+
         </>
     )
 }

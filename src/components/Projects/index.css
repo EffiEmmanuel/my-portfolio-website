@@ -1,46 +1,11 @@
 .projects {
-    background-color: aquamarine;
     height: auto;
     position: absolute;
     top: 0;
     z-index: 10;
 }
 
-.project-cards {
-    height: auto;
-}
-
-.project-card {
-    width: calc(100%/3);
-    height: calc(90vh/2);
-    background-color: orange;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.project-details {
-    background-color: rgba(0, 0, 0, .3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-details a {
-    margin: 5px;
-}
-
 .projects.container-fluid {
     width: 100%;
-    background-color: olive;
-    /* padding: 10px !important; */
+    margin-top: 30px;
 }

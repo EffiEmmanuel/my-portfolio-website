@@ -1,38 +1,65 @@
 import './index.css'
 import { faPaintbrush } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
-import { Link } from 'react-router-dom'
+import ProjectCard from '../ProjectCard'
+import hermosChatApp from '../../assets/images/hermos.jpg'
+import myPortfolio from '../../assets/images/mywebsite.png'
+import fatApeClone from '../../assets/images/fatapeclone.png'
+import artiConnect from '../../assets/images/articonnect.jpg'
+import nftMintPage from '../../assets/images/nftmintpage.png'
 
 function Projects() {
   return (
     <div className='projects container-fluid'>
       {/* <h2 style={{ color: 'black' }}>Projects🎨</h2> */}
       <div className='row'>
-        <div className='project-card col-lg-4'>
-          <div className='project-details'>
-            <h3 className='project-title'>Placeholder title</h3>
-            {/* <p className='project-description'>Placeholder description</p> */}
-            <Link to='/' className='cta-links learn' >Code</Link>
-            <Link to='/' className='cta-links hire' >View Live</Link>
-          </div>
-        </div>
-        <div className='project-card col-lg-4'>
-          <div className='project-details'>
-            <h3 className='project-title'>Placeholder title</h3>
-            {/* <p className='project-description'>Placeholder description</p> */}
-            <Link to='/' className='cta-links learn' >Code</Link>
-            <Link to='/' className='cta-links hire' >View Live</Link>
-          </div>
-        </div>
+          <ProjectCard
+            backgroundImage={myPortfolio}
+            title='My Portfolio Website'
+            codeLink='https://github.com/EffiEmmanuel/my-portfolio-website'
+            liveLink='https://effiemmanuel.netlify.app'
+            classNumber={1}
+          />
 
-        <div className='project-card col-lg-4'>
-          <div className='project-details'>
-            <h3 className='project-title'>Placeholder title</h3>
-            {/* <p className='project-description'>Placeholder description</p> */}
-            <Link to='/' className='cta-links learn' >Code</Link>
-            <Link to='/' className='cta-links hire' >View Live</Link>
-          </div>
-        </div>
+          <ProjectCard
+            backgroundImage={fatApeClone}
+            title='FatApeClub Clone'
+            codeLink='https://github.com/EffiEmmanuel/fatape-app-clone'
+            liveLink='https://fatapeclub.netlify.app/'
+            classNumber={2}
+          />
+
+          <ProjectCard
+            backgroundImage={hermosChatApp}
+            title='Hermos Chat App'
+            codeLink='https://github.com/EffiEmmanuel/Hermos-chat-app'
+            liveLink='https://hermosapp.000webhostapp.com/'
+            classNumber={3}
+          />
+
+          <ProjectCard
+            backgroundImage={artiConnect}
+            title='ArtiConnect'
+            codeLink='https://github.com/EffiEmmanuel/artiConnect'
+            liveLink='https://articonnect.netlify.app'
+            classNumber={4}
+          />
+
+          <ProjectCard
+            backgroundImage={nftMintPage}
+            title='Simple NFT Mint page'
+            codeLink='https://github.com/EffiEmmanuel/nft-mint-page'
+            liveLink='https://nft-mint-page.netlify.app/'
+            classNumber={5}
+          />
+
+          <ProjectCard
+            backgroundImage={hermosChatApp}
+            title='Hermos Chat App'
+            codeLink='https://github.com/EffiEmmanuel/Hermos-chat-app'
+            liveLink='https://hermosapp.000webhostapp.com/'
+            classNumber={6}
+          />
       </div>
     </div>
   )
