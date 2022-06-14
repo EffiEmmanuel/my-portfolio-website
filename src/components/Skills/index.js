@@ -77,6 +77,12 @@ function Skills() {
           label='PHP'
           value={40}
         />
+
+        <SkillCard
+          id='mysql'
+          label='MySQL'
+          value={40}
+        />
       </div>
 
       <div className='row mt-5'>

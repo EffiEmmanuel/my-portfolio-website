@@ -103,4 +103,8 @@
         animation: bounce 3s 1s;
         animation-iteration-count: infinite;
     }
+
+    .home h1 {
+        font-size: 2em;
+    }
 }

@@ -12,24 +12,19 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    emailjs.sendForm(
-      'gmail',
-      'template_m9p6zga',
-      refForm.current,
-      'pJFGEedXzc6lJ797lboHN'
-    ).then(() => {
-      alert('Message sent successfully!')
-      window.location.reload(false)
-    }, () => {
-      alert('Please try again')
-    })
+    emailjs.sendForm('service_apjmkxv', 'template_m9p6zga', '#myForm', '5Iwg4R46qa626nioz')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
   }
 
   return (
     <div className='contact'>
 
-      <form className='contact-form' ref={refForm} onSubmit={sendEmail}>
-        <div className='row justify-content-center p-0 m-0s'>
+      <form id='myForm' className='contact-form' ref={refForm} onSubmit={sendEmail}>
+        <div className='row justify-content-center p-3 m-0'>
           <div className='col-lg-6'>
             <div className='contact-header d-flex flex-column align-items-center justify-content-center'>
               <MemojiHero
@@ -57,11 +52,6 @@ function Contact() {
 
             <input type='submit' className='cta-links hire my-4' value='Submit' />
             {/* <a role='button' type='submit' className='cta-links hire my-4'>Submit</a> */}
-            <div className='social d-flex justify-content-between my-4'>
-              <a target='_blank' href='https://www.linkedin.com/in/emmanuel-effi/'>LinkedIn</a>
-              <a target='_blank' href='https://github.com/EffiEmmanuel'>Github</a>
-              <a target='_blank' href='https://twitter.com/effi_dev'>Twitter</a>
-            </div>
           </div>
         </div>
       </form>

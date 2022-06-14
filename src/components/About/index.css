@@ -1,3 +1,9 @@
 .about .description {
     width: 70% !important;
 }
+
+@media (max-width: 835px) {
+    .about .description {
+        width: 90% !important;
+    }
+}

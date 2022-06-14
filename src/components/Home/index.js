@@ -8,11 +8,11 @@ import FloatingShapes from '../FloatingShapes'
 
 
 const Home = () => {
-    const nameArray = ['E', 'f', 'f', 'i', ' ', ' ', 'E', 'm', 'm', 'a', 'n', 'u', 'e', 'l']
+    const nameArray = ['E', 'f', 'f', 'i', ' ', 'E', 'm', 'm', 'a', 'n', 'u', 'e', 'l']
 
     return (
         <>
-            <div className='main-content'>
+            <div className='main-content home'>
                 <MemojiHero
                     memoji={memoji}
                     title={nameArray}
