@@ -7,6 +7,7 @@ import myPortfolio from '../../assets/images/mywebsite.png'
 import fatApeClone from '../../assets/images/fatapeclone.png'
 import artiConnect from '../../assets/images/articonnect.jpg'
 import nftMintPage from '../../assets/images/nftmintpage.png'
+import spotify from '../../assets/images/spotify.png'
 
 function Projects() {
   return (
@@ -14,11 +15,19 @@ function Projects() {
       {/* <h2 style={{ color: 'black' }}>Projects🎨</h2> */}
       <div className='row'>
         <ProjectCard
+          backgroundImage={spotify}
+          title='Spotify Homepage'
+          codeLink='https://github.com/EffiEmmanuel/spotify-clone'
+          liveLink='https://effispotifyclone.netlify.app'
+          classNumber={1}
+        />
+
+        <ProjectCard
           backgroundImage={myPortfolio}
           title='My Portfolio Website'
           codeLink='https://github.com/EffiEmmanuel/my-portfolio-website'
           liveLink='https://effiemmanuel.netlify.app'
-          classNumber={1}
+          classNumber={2}
         />
 
         <ProjectCard
@@ -26,7 +35,7 @@ function Projects() {
           title='FatApeClub Clone'
           codeLink='https://github.com/EffiEmmanuel/fatape-app-clone'
           liveLink='https://fatapeclub.netlify.app/'
-          classNumber={2}
+          classNumber={3}
         />
 
         <ProjectCard
@@ -34,7 +43,7 @@ function Projects() {
           title='Hermos Chat App'
           codeLink='https://github.com/EffiEmmanuel/Hermos-chat-app'
           liveLink='https://hermosapp.000webhostapp.com/'
-          classNumber={3}
+          classNumber={4}
         />
 
         <ProjectCard
@@ -42,7 +51,7 @@ function Projects() {
           title='ArtiConnect'
           codeLink='https://github.com/EffiEmmanuel/artiConnect'
           liveLink='https://articonnect.netlify.app'
-          classNumber={4}
+          classNumber={5}
         />
 
         <ProjectCard
@@ -50,7 +59,7 @@ function Projects() {
           title='Simple NFT Mint page'
           codeLink='https://github.com/EffiEmmanuel/nft-mint-page'
           liveLink='https://nft-mint-page.netlify.app/'
-          classNumber={5}
+          classNumber={6}
         />
 {/* 
         <ProjectCard
