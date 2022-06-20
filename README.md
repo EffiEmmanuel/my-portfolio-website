@@ -1,3 +1,11 @@
+# Effi Emmanuel
+I built my own portfolio website and I am so happy I could achieve this. This is a start for me and I would be committed to making more changes and improvements to my website. I used React, state, css animations, components, props and react router dom for this project. 
+
+# Preview
+
+![mywebsite](https://user-images.githubusercontent.com/84421088/174653054-fc5606d2-9061-4b5a-b26c-8813e152b73b.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
