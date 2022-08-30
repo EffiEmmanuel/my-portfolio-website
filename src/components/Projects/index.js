@@ -10,6 +10,9 @@ import nftMintPage from '../../assets/images/nftmintpage.png'
 import spotify from '../../assets/images/spotify.png'
 import ventify from '../../assets/images/Ventify.png'
 import inventory from '../../assets/images/inventory.png'
+import spacedog from '../../assets/images/spacedog.png'
+import internistika from '../../assets/images/hms-dashboard.png'
+import dsEcommerce from '../../assets/images/ds-ecommerce.png'
 
 function Projects() {
   return (
@@ -17,11 +20,35 @@ function Projects() {
       {/* <h2 style={{ color: 'black' }}>Projects🎨</h2> */}
       <div className='row'>
         <ProjectCard
+          backgroundImage={dsEcommerce}
+          title='Digital Superstore'
+          codeLink='https://github.com/EffiEmmanuel/ds-ecommerce'
+          liveLink='http://ds-ecommerce.vercel.app/'
+          classNumber={1}
+        />
+
+        <ProjectCard
+          backgroundImage={internistika}
+          title='Internistika'
+          codeLink='https://github.com/EffiEmmanuel/hms-software'
+          liveLink='https://hms-software.vercel.app/login'
+          classNumber={2}
+        />
+
+        <ProjectCard
+          backgroundImage={spacedog}
+          title='SpaceDog'
+          codeLink='https://github.com/EffiEmmanuel/spacedog'
+          liveLink='https://spacedog.netlify.app/'
+          classNumber={3}
+        />
+
+        <ProjectCard
           backgroundImage={ventify}
           title='Ventify'
           codeLink='https://github.com/EffiEmmanuel/ventify-frontend'
           liveLink='https://ventify.netlify.app/'
-          classNumber={1}
+          classNumber={4}
         />
 
         <ProjectCard
@@ -29,7 +56,7 @@ function Projects() {
           title='Inventory API'
           codeLink='https://github.com/EffiEmmanuel/Inventory-API'
           liveLink='https://documenter.getpostman.com/view/20328447/UzJPMaax'
-          classNumber={2}
+          classNumber={5}
         />
 
         <ProjectCard
@@ -37,7 +64,7 @@ function Projects() {
           title='Spotify Homepage'
           codeLink='https://github.com/EffiEmmanuel/spotify-clone'
           liveLink='https://effispotifyclone.netlify.app'
-          classNumber={3}
+          classNumber={6}
         />
 
         <ProjectCard
@@ -45,7 +72,7 @@ function Projects() {
           title='My Portfolio Website'
           codeLink='https://github.com/EffiEmmanuel/my-portfolio-website'
           liveLink='https://effiemmanuel.netlify.app'
-          classNumber={4}
+          classNumber={7}
         />
 
         <ProjectCard
@@ -53,7 +80,7 @@ function Projects() {
           title='FatApeClub Clone'
           codeLink='https://github.com/EffiEmmanuel/fatape-app-clone'
           liveLink='https://fatapeclub.netlify.app/'
-          classNumber={5}
+          classNumber={8}
         />
 
         <ProjectCard
@@ -61,7 +88,7 @@ function Projects() {
           title='Hermos Chat App'
           codeLink='https://github.com/EffiEmmanuel/Hermos-chat-app'
           liveLink='https://hermosapp.000webhostapp.com/'
-          classNumber={6}
+          classNumber={9}
         />
 
         <ProjectCard
@@ -69,7 +96,7 @@ function Projects() {
           title='ArtiConnect'
           codeLink='https://github.com/EffiEmmanuel/artiConnect'
           liveLink='https://articonnect.netlify.app'
-          classNumber={7}
+          classNumber={10}
         />
 
         <ProjectCard
@@ -77,16 +104,16 @@ function Projects() {
           title='Simple NFT Mint page'
           codeLink='https://github.com/EffiEmmanuel/nft-mint-page'
           liveLink='https://nft-mint-page.netlify.app/'
-          classNumber={8}
+          classNumber={11}
         />
-{/* 
+
         <ProjectCard
           backgroundImage={hermosChatApp}
           title='Hermos Chat App'
           codeLink='https://github.com/EffiEmmanuel/Hermos-chat-app'
           liveLink='https://hermosapp.000webhostapp.com/'
-          classNumber={6}
-        /> */}
+          classNumber={12}
+        />
 
         <div className='container d-flex justify-content-center align-items-center'>
           <a href='https://github.com/EffiEmmanuel' className='cta-links hire my-5'>See more</a>
